@@ -1,0 +1,107 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:borderbox;
+}
+.container{
+	margin:170px;
+	width:80%;
+	display:flex;
+	flex-wrap:wrap;
+}
+.card{
+	width:29.3%;
+	
+	border-radius:5px;
+	border:1px solid #ddd2d2;
+	margin:10px;
+	
+	
+}
+.card h5{
+	text-align:center;
+	padding:10px;
+	color:#72cba2;
+}
+.card h1{
+	text-align:center;
+	padding:10px;
+	position:relative;
+}
+.para{
+	text-align:center;
+	padding:10px;
+}
+.para p{
+	padding:20px;
+	color:grey;
+}
+
+	
+
+.card h1::after{
+	color:white;
+	position:absolute;
+	border-top:1px solid grey;
+	width:260px;
+	top:80px;
+	content:"";
+	right:7px;
+	padding:20px;
+}
+.card:hover{
+	background-color:aqua;
+	color:black;
+}
+.but{
+	
+    width:100px;
+	height:50px;
+	font-size:15px;
+	padding:2%;
+	font-family:italic;
+	color:blue;
+	background-color:#b7f7f7;
+	outline:1px solid green;
+   border-radius:10px;
+   margin-bottom:5%;
+   margin-left:35%;
+   position:relative;
+	
+}
+.card:hover h5{
+	color:black;
+}
+.card:hover h1::after{
+	color:white;
+}
+.dot{
+	position:absolute;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	border:1px solid green;
+	background-color:green;
+	bottom:10px;
+	left:380px;
+}
+.dot1{
+	position:absolute;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	border:1px solid green;
+	background-color:green;
+	bottom:10px;
+	right:620px;
+}
+.dot2{
+	position:absolute;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	border:1px solid green;
+	background-color:green;
+	bottom:10px;
+	right:280px;
+}
